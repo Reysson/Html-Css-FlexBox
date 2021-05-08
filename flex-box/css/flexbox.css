@@ -30,3 +30,9 @@
 .rodapePrincipal-contatoForm-fieldset{
     display: flex;
 }
+
+.rodapePrincipal-navMap-list{
+    display: flex;
+    height: 250px;
+    flex-flow: column wrap;
+}
