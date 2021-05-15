@@ -63,7 +63,8 @@
 }
 
 .videoSobre-sobre-list {
-    flex-grow: 1;
+    flex-grow: 1; /*Quando for crescer, creça em 1*/
+    flex-shrink: 2; /*Quando for dimuir os espaço, diminuia em 2*/
 }
 
 /*Parte mobile*/
@@ -107,5 +108,13 @@
         display: flex;
         justify-content: space-around;
         width: 100%;
-    }    
+    }
+    
+    .videoSobre .container {
+        flex-direction: column;
+    }
+
+    .videoSobre-video {
+        margin: 0 auto;
+    }
 }
