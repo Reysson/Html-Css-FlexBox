@@ -46,6 +46,26 @@
     width: 23%;
 }
 
+.videoSobre .container {
+    display: flex;
+
+}
+
+.videoSobre-video {
+    flex-grow: 1;
+}
+
+.videoSobre-sobre {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    flex-grow: 2;
+}
+
+.videoSobre-sobre-list {
+    flex-grow: 1;
+}
+
 /*Parte mobile*/
 @media(max-width: 768px) {
     .cabecalhoPrincipal .container{
